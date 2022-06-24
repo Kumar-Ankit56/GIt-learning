@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*//case 1
 function a(){
     console.log(b); //Instead of printing the undefined it prints 10, So somehow this a function could access the variavle b outside the function scope.
@@ -58,3 +59,12 @@ console.log(b);
 /*two way to look up around a variable as what is the scope of any variable.
 Can i access a variable inside a function.*/
 
+=======
+//When variable is declared but not assigned value its value is undefined but when the variavle itself is not declared but called in code then it is notdefined
+
+
+console.log(x);
+var x= 45;
+console.log(b);
+console.log(x);
+>>>>>>> 1b90224cadd145f6735e16c514f76ba6f3efb9d0
